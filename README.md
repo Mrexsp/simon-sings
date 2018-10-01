@@ -1,7 +1,7 @@
 # Simon Sings
 
 A new way to learn ear training.
-Demo: (http://jacob8765.github.io/simon-sings)
+Demo: (http://simon-sings-demo.000webhostapp.com)
 
 ## Running locally
 
