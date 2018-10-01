@@ -17,7 +17,6 @@ class App extends Component {
 
     this.state = {
       usingsolfege: true,
-      //noRepeats: false,
       isNoteActive: false,
       isNoteActiveId: null,
       buttonFlash: true,
@@ -36,16 +35,6 @@ class App extends Component {
       }).play();
     }
   }
-
- /*  togglePeacock = () => {
-    $("body").addClass("peacock");
-  }
-
-  toggleRepeats = () => {
-    this.setState({
-      noRepeats: !this.state.noRepeats
-    });
-  } */
 
   toggleBlackKeys = () => {
     this.setState({
@@ -162,12 +151,10 @@ class App extends Component {
         html5: false
       }).play();
 
-      //setTimeout(() => {
         this.setState({
           isNoteActive: true,
           isNoteActiveId: number,
         });
-      //})
 
       setTimeout(() => {
         this.setState({
@@ -188,12 +175,7 @@ class App extends Component {
         console.log("Error: " + error);
         alert("An error has occuured. Please refresh the borwser and try again.");
       }
-    }/*  else {
-
-      if (number == 6) {
-        this.togglePeacock();
-      }
-    } */
+    }
   }
 
   startGame = () => {
