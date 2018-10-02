@@ -227,7 +227,7 @@ class App extends Component {
 
           <NoteButton blackKeys={this.state.blackKeys} usingsolfege={this.state.usingsolfege} checkAnswer={this.checkAnswer} small={false} />
 
-          <p className="m-2 mt-5">Solfege is <b>{(this.state.usingsolfege ? "enabled" : "disabled")}</b>. Repeated notes are <b>{(this.state.noRepeats ? "not allowed" : "allowed")}</b> Button Flashing is <b>{(this.state.buttonFlash ? "enabled" : "disabled")}</b> pro mode is <b>{(this.state.proMode ? "enabled" : "disabled")}</b></p>
+          <p className="m-2 mt-5 text-white">Solfege is <b>{(this.state.usingsolfege ? "enabled" : "disabled")}</b>. Repeated notes are <b>{(this.state.noRepeats ? "not allowed" : "allowed")}</b> Button Flashing is <b>{(this.state.buttonFlash ? "enabled" : "disabled")}</b> pro mode is <b>{(this.state.proMode ? "enabled" : "disabled")}</b></p>
         </MediaQuery>
 
         <MediaQuery maxWidth={1000}>
@@ -252,7 +252,7 @@ class App extends Component {
 
             <NoteButton blackKeys={this.state.blackKeys} usingsolfege={this.state.usingsolfege} checkAnswer={this.checkAnswer} small={true} />
 
-            <p className="m-2">Solfege is <b>{(this.state.usingsolfege ? "enabled" : "disabled")}</b>. Repeated notes are <b>{(this.state.noRepeats ? "not allowed" : "allowed")}</b> Button Flashing is <b>{(this.state.buttonFlash ? "enabled" : "disabled")}</b> pro mode is <b>{(this.state.proMode ? "enabled" : "disabled")}</b></p>
+            <p className="m-2 text-white">Solfege is <b>{(this.state.usingsolfege ? "enabled" : "disabled")}</b>. Repeated notes are <b>{(this.state.noRepeats ? "not allowed" : "allowed")}</b> Button Flashing is <b>{(this.state.buttonFlash ? "enabled" : "disabled")}</b> pro mode is <b>{(this.state.proMode ? "enabled" : "disabled")}</b></p>
           </MediaQuery>
         </MediaQuery>
       </div>
